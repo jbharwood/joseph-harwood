@@ -5,6 +5,7 @@ class About extends React.Component {
   render() {
     return (
       <div>
+        <h1> About </h1>
         <p> Full-stack web developer with a passion for creating unique user
         experiences using Ruby on Rails, JavaScript, and React and a background
         in database administration. A gaming enthusiast, I bring strong skills

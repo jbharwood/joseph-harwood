@@ -36,8 +36,17 @@ html {
 
     h1 {
       margin-bottom: 20px;
+      text-align: center;
     }
 
     p {
       margin-bottom: 15px;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    .contactlinks {
+      padding: 20px
     }
