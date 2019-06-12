@@ -4,7 +4,7 @@ import About from './components/About';
 import Home from './components/Home';
 import Contact from './components/Contact';
 import NavBar from './components/NavBar';
-import { NavLink, Switch, Route } from 'react-router-dom';
+import { NavLink, Switch, Route, Redirect } from 'react-router-dom';
 
 function App() {
   return (
