@@ -17,7 +17,7 @@ function App() {
         </ul>
       </nav>
       <Switch>
-        <Route exact path='/' component={Home}></Route>
+        <Route exact path='/home' component={Home}></Route>
         <Route exact path='/about' component={About}></Route>
         <Route exact path='/contact' component={Contact}></Route>
         <Redirect from="/" to= "/home" />
