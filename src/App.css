@@ -1,56 +1,72 @@
 html {
-      box-sizing: border-box;
-    }
+  box-sizing: border-box;
+}
 
-    *, *::before, *::after {
-      box-sizing: inherit;
-      padding: 0;
-      margin: 0;
-    }
+*, *::before, *::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
 
-    .app {
-      width: 960px;
-      margin: 0 auto;
-      padding: 20px;
-    }
+.app {
+  width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
 
-    nav ul {
-      list-style: none;
-      display: flex;
-      background-color: black;
-      margin-bottom: 20px;
-    }
+nav ul {
+  list-style: none;
+  display: flex;
+  background-color: black;
+  margin-bottom: 20px;
+}
 
-    nav ul li {
-      padding: 20px;
-    }
+nav ul li {
+  padding: 20px;
+}
 
-    nav ul li a {
-      color: white;
-      text-decoration: none;
-    }
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
 
-    .current {
-      border-bottom: 4px solid white;
-    }
+.current {
+  border-bottom: 4px solid white;
+}
 
-    h1 {
-      margin-bottom: 20px;
-      text-align: center;
-    }
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
 
-    p {
-      margin-bottom: 15px;
-    }
+p {
+  margin-bottom: 15px;
+}
 
-    .contact {
-      text-align: center;
-    }
+.contact {
+  text-align: center;
+}
 
-    .contactlinks {
-      padding: 20px
-    }
+.contactlinks {
+  padding: 20px
+}
 
-    .App {
-      text-align: center;
-    }
+.App {
+  text-align: center;
+}
+
+/* a:-webkit-any-link {
+    cursor: pointer;
+} */
+
+a:hover {
+ cursor:pointer;
+}
+
+/* li:hover {
+  cursor: pointer;
+} */
+/*
+li:hover {
+  border-color: rgb(19,149,218);
+} */

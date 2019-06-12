@@ -15,7 +15,7 @@ class Contact extends React.Component {
           <a href="https://github.com/jbharwood" target="_blank"> Github </a>
         </div>
         <div class="contactLinks">
-          <a href="https://medium.com/@josephharwood_62087" target="_blank"> Medium </a>
+          <a href="https://medium.com/@josephharwood_62087" target="_blank"> Blog </a>
         </div>
       </div>
     )

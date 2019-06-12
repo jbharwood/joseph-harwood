@@ -1,4 +1,5 @@
 import React from "react";
+import me from '../media/LinkedIn.jpg'; // with import
 
 class About extends React.Component {
 
@@ -12,6 +13,7 @@ class About extends React.Component {
         in cross-functional projects that meet customer demands and deadlines in
         small environments as well as giants such as Blue Cross Blue Shield of
         South Carolina serving millions of people.</p>
+        <img src={me} width="50%" height="50%"/>
       </div>
     )
   }
