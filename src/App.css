@@ -64,7 +64,9 @@ p {
 } */
 
 a:hover {
- cursor:pointer;
+  color: blue;
+  text-decoration: none;
+  font-weight: none
 }
 
 .projectContainer {
