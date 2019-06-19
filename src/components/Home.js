@@ -8,9 +8,9 @@ const Home = () => {
     if (resumeClicked === true) {
       return (
         <div>
-          <button onClick={() => showResume(!resumeClicked)}>
-            Hide Resume
-          </button>
+            <button className="contact_bar_image" onClick={() => showResume(!resumeClicked)}>
+              Hide Resume
+            </button>
           <br/>
           <br/>
           <iframe src="https://docs.google.com/document/d/e/2PACX-1vQcO74u2RzZE1gKuygyq_3yM-Kk1AvyJwHgeEdjcLKchjt0Af2WGHgr7jGUXG86lksaw3ngrgnc3VTc/pub?embedded=true" width='600px' height='400px'></iframe>
@@ -18,7 +18,7 @@ const Home = () => {
       )
     } else {
       return (
-        <button onClick={() => showResume(!resumeClicked)}>
+        <button className="contact_bar_image" onClick={() => showResume(!resumeClicked)}>
           Show Resume
         </button>
       )
