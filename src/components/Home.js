@@ -29,10 +29,12 @@ const Home = () => {
   <div className="body">
     {renderResume()}
     <br/>
+    <br/>
     <h2>Projects</h2>
     <br/>
     <div className="projectContainer">
       <h3>Cinematch</h3>
+      <br/>
       <p>Movie and TV recommendation website with a chat</p>
       <p>Built using Ruby on Rails, Javacript, and React</p>
       <a href="https://cinematch-jbharwood.herokuapp.com" target="_blank"> Hosted Site </a>
