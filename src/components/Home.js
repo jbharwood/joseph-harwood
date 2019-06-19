@@ -18,7 +18,7 @@ const Home = () => {
   }
 
   return (
-  <div className="">
+  <div className="body">
     <button onClick={() => showResume(!resumeClicked)}>
       Show Resume
     </button>
@@ -27,10 +27,35 @@ const Home = () => {
     <br/>
     <h2>Projects</h2>
     <br/>
-    <h3>Cinematch</h3>
-    <p>Movie and TV recommendation website with a chat</p>
-    <p>Built using Ruby on Rails, Javacript, and React</p>
-    <a href="https://cinematch-jbharwood.herokuapp.com" target="_blank"> Hosted Site </a>
+    <div className="projectContainer">
+      <h3>Cinematch</h3>
+      <p>Movie and TV recommendation website with a chat</p>
+      <p>Built using Ruby on Rails, Javacript, and React</p>
+      <a href="https://cinematch-jbharwood.herokuapp.com" target="_blank"> Hosted Site </a>
+      <br/>
+      <br/>
+      <div
+            className="video"
+            style={{
+              position: "relative",
+              paddingBottom: "30%" /* 16:9 56.25%*/,
+              paddingTop: "15%",
+              height: 0
+            }}
+          >
+            <iframe
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%"
+              }}
+              src={`https://www.youtube.com/embed/POtdwJp-Bwo`}
+              frameBorder="0"
+            />
+      </div>
+    </div>
   </div>
   )
 }
