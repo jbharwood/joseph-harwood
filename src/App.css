@@ -21,7 +21,7 @@ html {
 nav ul {
   list-style: none;
   display: flex;
-  background-color: black;
+  background-color: #1C2B33;
   margin-bottom: 20px;
 }
 
@@ -69,7 +69,7 @@ a:hover {
   font-weight: none
 }
 
-.projectContainer {
+.bodyContainer {
   background-color: #89BFCC;
   padding: 3vw;
   margin: 0.2vh;
@@ -82,10 +82,36 @@ a:hover {
   padding-top: 2vh;
 }
 
-/* li:hover {
-  cursor: pointer;
-} */
-/*
-li:hover {
-  border-color: rgb(19,149,218);
-} */
+.contactBar {
+  height: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 2vw;
+  padding-top: 1vw;
+  border-bottom: 1px solid #DEE2E2;
+  background-color: white;
+  top: 0;
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+}
+
+.contact_bar_image {
+  height: 4vh;
+  border-radius: 3px;
+  outline-style: hidden;
+  /* margin: 0.8vw; */
+}
+
+.contact_bar_image:hover {
+  outline-style: solid;
+  outline-color: #DEE2E2;
+  outline-color: rgb(34,130,190);
+}
+
+.navBarRight {
+  list-style: none;
+  display: flex;
+  margin-left: 45%;
+}

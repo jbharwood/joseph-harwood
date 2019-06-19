@@ -32,7 +32,7 @@ const Home = () => {
     <br/>
     <h2>Projects</h2>
     <br/>
-    <div className="projectContainer">
+    <div className="bodyContainer">
       <h3>Cinematch</h3>
       <br/>
       <p>Movie and TV recommendation website with a chat</p>
