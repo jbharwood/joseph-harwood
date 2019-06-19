@@ -18,9 +18,9 @@ function App() {
           <li><NavLink exact activeClassName="current" to='/about'>About</NavLink></li>
           <li><NavLink exact activeClassName="current" to='/contact'>Contact</NavLink></li>
           <div className="navBarRight">
-            <li><a href="https://www.linkedin.com/in/josephblakeharwood/" target="_blank"> <img src={linkedin} alt="LinkedIn" className="contact_bar_image"/></a></li>
-            <li><a href="https://github.com/jbharwood" target="_blank"><img src={github} alt="Github" className="contact_bar_image"/></a></li>
-            <li><a href="https://medium.com/@josephharwood_62087" target="_blank"><img src={medium} alt="Blog" className="contact_bar_image"/></a></li>
+            <li><a href="https://www.linkedin.com/in/josephblakeharwood/" target="_blank"> <img src={linkedin} alt="LinkedIn" title="LinkedIn" className="contact_bar_image"/></a></li>
+            <li><a href="https://github.com/jbharwood" target="_blank"><img src={github} alt="Github" title="Github" className="contact_bar_image"/></a></li>
+            <li><a href="https://medium.com/@josephharwood_62087" target="_blank"><img src={medium} alt="Blog" title="Blog" className="contact_bar_image"/></a></li>
           </div>
         </ul>
       </nav>
