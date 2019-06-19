@@ -16,7 +16,6 @@ html {
   padding: 20px;
   font-family: 'Montserrat', sans-serif;
   color: #3E4545;
-  font-size: 2.5em;
 }
 
 nav ul {
@@ -78,13 +77,16 @@ a:hover {
   border-radius: 5px;
 }
 
-.resumeContainer {
+/* .resumeContainer {
+  cursor: pointer;
+} */
+/* .resumeContainer {
   background-color: #89BFCC;
   padding: 3vw;
   margin: 0.2vh;
   margin-bottom: 5vh;
   border-radius: 5px;
-}
+} */
 
 .body {
   padding: 4vw;
@@ -110,6 +112,7 @@ a:hover {
   height: 4vh;
   border-radius: 3px;
   outline-style: hidden;
+  cursor: pointer;
   /* margin: 0.8vw; */
 }
 
