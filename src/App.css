@@ -16,6 +16,7 @@ html {
   padding: 20px;
   font-family: 'Montserrat', sans-serif;
   color: #3E4545;
+  font-size: 2.5em;
 }
 
 nav ul {
@@ -121,5 +122,5 @@ a:hover {
 .navBarRight {
   list-style: none;
   display: flex;
-  margin-left: 43%;
+  margin-left: 65%;
 }
