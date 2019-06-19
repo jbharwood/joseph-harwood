@@ -77,6 +77,14 @@ a:hover {
   border-radius: 5px;
 }
 
+.resumeContainer {
+  background-color: #89BFCC;
+  padding: 3vw;
+  margin: 0.2vh;
+  margin-bottom: 5vh;
+  border-radius: 5px;
+}
+
 .body {
   padding: 4vw;
   padding-top: 2vh;
