@@ -159,6 +159,7 @@ a:hover {
   background: #e1e3e8;
   border: solid;
   border-color: #1C2B33;
+  border-bottom: none;
 }
 
 .footer {
@@ -172,12 +173,16 @@ a:hover {
   background: #e1e3e8;
   border: solid;
   border-color: #1C2B33;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
 }
 
 .aside-1 {
   background: #e1e3e8;
   border: solid;
   border-color: #1C2B33;
+  border-bottom: none;
   display: flex;
   align-items: center;
   text-align: center;
@@ -212,6 +217,7 @@ a:hover {
   background: #e1e3e8;
   border: solid;
   border-color: #1C2B33;
+  border-bottom: none;
 }
 
 @media all and (min-width: 600px) {
