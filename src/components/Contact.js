@@ -9,7 +9,8 @@ class Contact extends React.Component {
     return (
       <div class="body">
         <h1> Contact </h1>
-        <div className="contactContainer">
+        <div className="bodyContainer" align="left">
+        <p>Feel free to send me an email or contact me on any of these sites:</p>
           <div className="col1">
             <div class="contactLinks">
               <img align="left" src={linkedin} alt="LinkedIn" title="LinkedIn" className="site_image"/>
@@ -25,6 +26,7 @@ class Contact extends React.Component {
             </div>
           </div>
           <div className="col2">
+            <br/>
             <p> josephblakeharwood@gmail.com </p>
           </div>
         </div>

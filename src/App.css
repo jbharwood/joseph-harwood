@@ -65,6 +65,10 @@ p {
     cursor: pointer;
 } */
 
+a {
+  text-decoration: none;
+}
+
 a:hover {
   color: #2282BE;
   text-decoration: none;
