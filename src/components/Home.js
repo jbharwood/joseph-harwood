@@ -29,12 +29,12 @@ const Home = () => {
 
   return (
   <div className="body">
-    <h2>Resume</h2>
+    <h1>Resume</h1>
     <br/>
     {renderResume()}
     <br/>
     <br/>
-    <h2>Projects</h2>
+    <h1>Projects</h1>
     <br/>
     <div className="bodyContainer">
       <h3>Cinematch</h3>
