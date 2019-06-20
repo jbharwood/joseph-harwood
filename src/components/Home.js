@@ -41,7 +41,9 @@ const Home = () => {
       <br/>
       <p>Movie and TV recommendation website with a chat</p>
       <p>Built using Ruby on Rails, Javacript, and React</p>
-      <a href="https://cinematch-jbharwood.herokuapp.com" target="_blank"> Hosted Site </a>
+      <a href="https://cinematch-jbharwood.herokuapp.com" target="_blank"> Hosted Site </a> <br/>
+      <a href="https://github.com/jbharwood/cinematch-frontend" target="_blank"> Frontend </a> <br/>
+      <a href="https://github.com/jbharwood/cinematch-backend" target="_blank"> Backend </a>
       <br/>
       <br/>
       <div
@@ -62,6 +64,38 @@ const Home = () => {
                 height: "100%"
               }}
               src={`https://www.youtube.com/embed/POtdwJp-Bwo`}
+              frameBorder="0"
+            />
+      </div>
+    </div>
+    <br/>
+    <div className="bodyContainer">
+      <h3>Quizalcoatl</h3>
+      <br/>
+      <p>Snake trivia game incorporating a trivia element to the traditional snake game</p>
+      <p>Built using Ruby on Rails and Javacript</p>
+      <a href="https://github.com/jbharwood/quizalcoatl-frontend" target="_blank"> Frontend </a> <br/>
+      <a href="https://github.com/jbharwood/quizalcoatl-backend" target="_blank"> Backend </a>
+      <br/>
+      <br/>
+      <div
+            className="video"
+            style={{
+              position: "relative",
+              paddingBottom: "30%" /* 16:9 56.25%*/,
+              paddingTop: "15%",
+              height: 0
+            }}
+          >
+            <iframe
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%"
+              }}
+              src={`https://www.youtube.com/embed/2W2vGLwA6d0`}
               frameBorder="0"
             />
       </div>
