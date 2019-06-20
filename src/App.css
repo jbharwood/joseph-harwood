@@ -231,3 +231,24 @@ a:hover {
   .aside-2 { order: 3; }
   .footer  { order: 4; }
 }
+
+.description {
+  background: #e1e3e8;
+  border: solid;
+  border-color: #1C2B33;
+}
+
+.picMe {
+  border: solid;
+  border-color: #1C2B33;
+}
+
+.contactBody {
+  background: #e1e3e8;
+  border: solid;
+  border-color: #1C2B33;
+}
+
+.margin {
+  margin-left: 2%;
+}
