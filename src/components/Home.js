@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import react from '../media/react.png'
+import rails from '../media/rails.png'
+import javascript from '../media/javascript.png'
 
 const Home = () => {
 
@@ -36,75 +39,89 @@ const Home = () => {
     <br/>
     <h1>Projects</h1>
     <br/>
-    <header class="header">Header</header>
-    <article class="main">
-      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-    </article>
-    <aside class="aside aside-1">Aside 1</aside>
-    <aside class="aside aside-2">Aside 2</aside>
-    <footer class="footer">Footer</footer>
     <div className="bodyContainer">
-      <h3>Cinematch</h3>
-      <br/>
-      <p>Movie and TV recommendation website with a chat</p>
-      <p>Built using Ruby on Rails, Javacript, and React</p>
-      <a href="https://cinematch-jbharwood.herokuapp.com" target="_blank"> Hosted Site </a> <br/>
-      <a href="https://github.com/jbharwood/cinematch-frontend" target="_blank"> Frontend </a> <br/>
-      <a href="https://github.com/jbharwood/cinematch-backend" target="_blank"> Backend </a>
-      <br/>
-      <br/>
-      <div
-            className="video"
-            style={{
-              position: "relative",
-              paddingBottom: "30%" /* 16:9 56.25%*/,
-              paddingTop: "15%",
-              height: 0
-            }}
-          >
-            <iframe
-              style={{
-                position: "absolute",
-                top: 0,
-                left: 0,
-                width: "100%",
-                height: "100%"
-              }}
-              src={`https://www.youtube.com/embed/POtdwJp-Bwo`}
-              frameBorder="0"
-            />
+      <div className="wrapper">
+        <header className="header">Cinematch</header>
+        <article className="main">
+          <p>Movie and TV recommendation website with a chat</p>
+        </article>
+        <aside className="aside aside-1">
+          <div className="project_images">
+            <img align="left" src={rails} alt="Rails" title="Rails" className="project_image" id="img3"/>
+            <img align="left" src={javascript} alt="Javascript" title="Javascript" className="project_image" id="img2"/>
+            <img align="left" src={react} alt="React" title="React" className="project_image" id="img1"/>
+          </div>
+        </aside>
+        <aside className="aside aside-2">
+          <a href="https://cinematch-jbharwood.herokuapp.com" target="_blank"> Hosted Site </a> <br/>
+          <a href="https://github.com/jbharwood/cinematch-frontend" target="_blank"> Frontend </a> <br/>
+          <a href="https://github.com/jbharwood/cinematch-backend" target="_blank"> Backend </a>
+        </aside>
+        <footer className="footer">
+          <div
+                className="video"
+                style={{
+                  position: "relative",
+                  paddingBottom: "30%" /* 16:9 56.25%*/,
+                  paddingTop: "15%",
+                  height: 0
+                }}
+              >
+                <iframe
+                  style={{
+                    position: "absolute",
+                    top: 0,
+                    left: 0,
+                    width: "100%",
+                    height: "100%"
+                  }}
+                  src={`https://www.youtube.com/embed/POtdwJp-Bwo`}
+                  frameBorder="0"
+                />
+          </div>
+        </footer>
       </div>
     </div>
     <br/>
     <div className="bodyContainer">
-      <h3>Quizalcoatl</h3>
-      <br/>
-      <p>Snake trivia game incorporating a trivia element to the traditional snake game</p>
-      <p>Built using Ruby on Rails and Javacript</p>
-      <a href="https://github.com/jbharwood/quizalcoatl-frontend" target="_blank"> Frontend </a> <br/>
-      <a href="https://github.com/jbharwood/quizalcoatl-backend" target="_blank"> Backend </a>
-      <br/>
-      <br/>
-      <div
-            className="video"
-            style={{
-              position: "relative",
-              paddingBottom: "30%" /* 16:9 56.25%*/,
-              paddingTop: "15%",
-              height: 0
-            }}
-          >
-            <iframe
-              style={{
-                position: "absolute",
-                top: 0,
-                left: 0,
-                width: "100%",
-                height: "100%"
-              }}
-              src={`https://www.youtube.com/embed/2W2vGLwA6d0`}
-              frameBorder="0"
-            />
+      <div className="wrapper">
+        <header className="header">Quizalcoatl</header>
+        <article className="main">
+          <p>Snake trivia game incorporating a trivia element to the traditional snake game</p>
+        </article>
+        <aside className="aside aside-1">
+          <div className="project_images">
+            <img align="left" src={rails} alt="Rails" title="Rails" className="project_image" id="img3"/>
+            <img align="left" src={javascript} alt="Javascript" title="Javascript" className="project_image" id="img2"/>
+          </div>
+        </aside>
+        <aside className="aside aside-2">
+          <a href="https://github.com/jbharwood/quizalcoatl-frontend" target="_blank"> Frontend </a> <br/>
+          <a href="https://github.com/jbharwood/quizalcoatl-backend" target="_blank"> Backend </a>
+        </aside>
+        <footer className="footer">
+          <div
+                className="video"
+                style={{
+                  position: "relative",
+                  paddingBottom: "30%" /* 16:9 56.25%*/,
+                  paddingTop: "15%",
+                  height: 0
+                }}
+              >
+                <iframe
+                  style={{
+                    position: "absolute",
+                    top: 0,
+                    left: 0,
+                    width: "100%",
+                    height: "100%"
+                  }}
+                  src={`https://www.youtube.com/embed/2W2vGLwA6d0`}
+                  frameBorder="0"
+                />
+          </div>
+        </footer>
       </div>
     </div>
   </div>
