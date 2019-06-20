@@ -174,9 +174,6 @@ a:hover {
 .aside-1 {
   background: white;
   border: solid;
-  display: flex;
-  align-items: center;
-  text-align: center;
 }
 
 .project_images {
