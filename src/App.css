@@ -238,6 +238,10 @@ a:hover {
   border-color: #1C2B33;
 }
 
+.description p {
+  margin-top: 2%;
+}
+
 .picMe {
   border: solid;
   border-color: #1C2B33;
@@ -250,5 +254,6 @@ a:hover {
 }
 
 .margin {
+  margin-top: 2%;
   margin-left: 2%;
 }
