@@ -53,9 +53,9 @@ p {
   text-align: center;
 }
 
-.contactlinks {
-  padding: 20px
-}
+/* .contactlinks {
+  padding: 20px;
+} */
 
 .App {
   text-align: center;
@@ -77,6 +77,17 @@ a:hover {
   margin: 0.2vh;
   margin-bottom: 5vh;
   border-radius: 5px;
+}
+
+.contactContainer {
+  background-color: #89BFCC;
+  padding: 3vw;
+  margin: 0.2vh;
+  margin-bottom: 5vh;
+  border-radius: 5px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
 /* .resumeContainer {
@@ -118,6 +129,14 @@ a:hover {
   /* margin: 0.8vw; */
 }
 
+.site_image {
+  height: 6vh;
+  border-radius: 3px;
+  outline-style: hidden;
+  align: left;
+  margin-right: 1vw;
+}
+
 .contact_bar_image:hover {
   outline-style: solid;
   outline-color: #DEE2E2;
@@ -128,5 +147,4 @@ a:hover {
   list-style: none;
   display: flex;
   margin-left: 60%;
-  /* margin-left: 65%; */
 }
