@@ -53,17 +53,9 @@ p {
   text-align: center;
 }
 
-/* .contactlinks {
-  padding: 20px;
-} */
-
 .App {
   text-align: center;
 }
-
-/* a:-webkit-any-link {
-    cursor: pointer;
-} */
 
 a {
   text-decoration: none;
@@ -236,6 +228,7 @@ a:hover {
   background: #e1e3e8;
   border: solid;
   border-color: #1C2B33;
+  border-radius: 5px;
 }
 
 .description p {
@@ -245,12 +238,14 @@ a:hover {
 .picMe {
   border: solid;
   border-color: #1C2B33;
+  border-radius: 5px;
 }
 
 .contactBody {
   background: #e1e3e8;
   border: solid;
   border-color: #1C2B33;
+  border-radius: 5px;
 }
 
 .margin {
