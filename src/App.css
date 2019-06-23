@@ -2,11 +2,28 @@ html {
   box-sizing: border-box;
 }
 
+/* * {
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 1.75em;
+} */
+
 *, *::before, *::after {
+  /* box-sizing: inherit;
+  padding: 0;
+  margin: 0; */
+  /* font-family: 'Montserrat', sans-serif; */
+  /* color: #110303;
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300))); */
+}
+
+* {
   box-sizing: inherit;
   padding: 0;
   margin: 0;
   /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Segoe UI','Helvetica Neue',Arial,sans-serif,'Apple Color Emoji';
+  line-height: 1.75em;
   color: #110303;
   font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
   line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
@@ -16,7 +33,7 @@ html {
   width: 960px;
   margin: 0 auto;
   padding: 20px;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   color: #3E4545;
 }
 
@@ -89,7 +106,7 @@ a:hover {
 .body {
   padding: 4vw;
   padding-top: 2vh;
-  font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  /* font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif; */
 }
 
 .contactBar {
@@ -230,6 +247,7 @@ a:hover {
   border: solid;
   border-color: #1C2B33;
   border-radius: 5px;
+  margin-left: 2px;
 }
 
 .description p {
