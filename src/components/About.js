@@ -11,8 +11,8 @@ class About extends React.Component {
           <div className="description">
             <p> I am a full-stack web developer with a passion for creating unique user
             experiences using Ruby on Rails, JavaScript, and React and a background
-            in database administration. A gaming enthusiast, bedroom guitarist, lover of
-            music and film, chronic podcast listener, and Charleston native getting lost in Brooklyn.
+            in database administration. A gaming enthusiast, bedroom guitarist, music lover,
+            film fanatic, chronic podcast listener, and Charleston native getting lost in Brooklyn.
             </p>
           </div>
           <br/>
