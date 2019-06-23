@@ -39,7 +39,7 @@ const Home = () => {
     <br/>
     <h1>Projects</h1>
     <br/>
-    <div >
+    <div className="contactBody">
       <div className="wrapper">
         <header className="header">Cinematch</header>
         <article className="main">
@@ -83,7 +83,7 @@ const Home = () => {
       </div>
     </div>
     <br/>
-    <div>
+    <div className="contactBody">
       <div className="wrapper">
         <header className="header">Quizalcoatl</header>
         <article className="main">
