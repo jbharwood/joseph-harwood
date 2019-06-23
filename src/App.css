@@ -132,6 +132,20 @@ a:hover {
   /* margin: 0.8vw; */
 }
 
+.resume {
+  height: 4vh;
+  border-radius: 3px;
+  outline-style: hidden;
+  cursor: pointer;
+  /* margin: 0.8vw; */
+}
+
+.resume:hover {
+  outline-style: solid;
+  outline-color: #DEE2E2;
+  outline-color: rgb(34,130,190);
+}
+
 .site_image {
   height: 6vh;
   border-radius: 3px;

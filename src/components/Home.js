@@ -11,9 +11,7 @@ const Home = () => {
     if (resumeClicked === true) {
       return (
         <div>
-          <button className="contact_bar_image" onClick={() => showResume(!resumeClicked)}>
-            Hide Resume
-          </button>
+          <a onClick={() => showResume(!resumeClicked)}> Hide Resume </a>
           <br/>
           <br/>
           <div>
@@ -23,17 +21,15 @@ const Home = () => {
       )
     } else {
       return (
-        <button className="contact_bar_image" onClick={() => showResume(!resumeClicked)}>
-          Show Resume
-        </button>
+        <div>
+          <a onClick={() => showResume(!resumeClicked)}> Show Resume </a>
+        </div>
       )
     }
   }
 
   return (
   <div className="body">
-    <h1>Resume</h1>
-    <br/>
     {renderResume()}
     <br/>
     <br/>
