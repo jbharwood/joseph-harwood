@@ -9,7 +9,7 @@ class Contact extends React.Component {
     return (
       <div class="body">
         <h1> Contact </h1>
-        <div className="bodyContainer">
+        <div>
           <div className="contactBody" align="left">
             <div className="margin" align="left">
               <p>Feel free to send me an email or contact me on any of these sites:</p>

@@ -149,32 +149,32 @@ a:hover {
 
 .header {
   background: #e1e3e8;
-  border: solid;
+  /* border: solid;
   border-color: #1C2B33;
-  border-bottom: none;
+  border-bottom: none; */
 }
 
 .footer {
   background: #e1e3e8;
-  border: solid;
-  border-color: #1C2B33;
+  /* border: solid;
+  border-color: #1C2B33; */
 }
 
 .main {
   text-align: center;
   background: #e1e3e8;
-  border: solid;
+  /* border: solid;
   border-color: #1C2B33;
   border-bottom: none;
   border-right: none;
-  border-left: none;
+  border-left: none; */
 }
 
 .aside-1 {
   background: #e1e3e8;
-  border: solid;
+  /* border: solid;
   border-color: #1C2B33;
-  border-bottom: none;
+  border-bottom: none; */
   display: flex;
   align-items: center;
   text-align: center;
@@ -207,9 +207,9 @@ a:hover {
 
 .aside-2 {
   background: #e1e3e8;
-  border: solid;
+  /* border: solid;
   border-color: #1C2B33;
-  border-bottom: none;
+  border-bottom: none; */
 }
 
 @media all and (min-width: 600px) {

@@ -7,7 +7,7 @@ class About extends React.Component {
     return (
       <div className="body">
         <h1> About </h1>
-        <div className="bodyContainer">
+        <div>
           <div className="description">
             <p> Full-stack web developer with a passion for creating unique user
             experiences using Ruby on Rails, JavaScript, and React and a background
