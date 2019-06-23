@@ -144,6 +144,12 @@ a:hover {
   outline-style: solid;
   outline-color: #DEE2E2;
   outline-color: rgb(34,130,190);
+  cursor: pointer;
+}
+
+a,
+a label {
+    cursor: pointer;
 }
 
 .site_image {
